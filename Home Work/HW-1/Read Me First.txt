@@ -1,1 +1,10 @@
+Problem : Write a C/Java program to search from a CSV file
+which contains name, roll and other information of
+students separated by comma. Each student is
+separated by a blank line. You have to print out in
+which line the given roll is and how many lines
+your program processed to find that roll.
+
+
+Note:
 Please change the file location of data.csv before run.
