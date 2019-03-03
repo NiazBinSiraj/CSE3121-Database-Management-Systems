@@ -1,0 +1,19 @@
+package studentDataRUCSE25;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class mainClass {
+
+	public static void main(String[] args) throws Exception {
+		File file = new File("F:\\RAJSHAHI\\RU CSE 25\\3Y1S\\CSE3121 - Database Management Systems\\Home Work\\HW-1\\studentDataRUCSE25\\src\\studentDataRUCSE25\\data.csv");
+		Scanner sc = new Scanner(file);
+		
+		while(sc.hasNextLine())
+		{
+			String s = new String("");
+			s = s + (String) sc.nextLine();
+			System.out.println(s);
+		}
+	}
+}
